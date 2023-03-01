@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Routes
 app.use('/', async (req, res) => {
-    res.send('Hello World');
+    res.send('You have reached the api');
 });
 
 
