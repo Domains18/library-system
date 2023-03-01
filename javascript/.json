@@ -1,0 +1,10 @@
+{
+    "name": "Js directory for library and plugins",
+    "version": "1.0",
+    "depends": [
+        "base",
+        "web"
+    ],
+    "author": "Domains18",
+    "category": "Web/api"
+}
