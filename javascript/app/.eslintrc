@@ -1,0 +1,23 @@
+{
+    "extends": "eslint:recommended",
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-unused-vars": "on",
+        "no-undef": "on",
+        "no-constant-condition": "on",
+        "no-empty": "on",
+        "prefer-const": "on",
+        "no-var": "on",
+        "no-console": "off",
+        // "no-debugger": "off",
+        "no-alert": "off",
+        "no-else-return": "off",
+    }
+}
