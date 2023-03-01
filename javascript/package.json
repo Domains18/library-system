@@ -1,0 +1,9 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "This is for the library system: Js language",
+  "main": "app.js",
+  "author": "Domains18",
+  "license": "MIT",
+  "private": false
+}

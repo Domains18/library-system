@@ -1,0 +1,16 @@
+{
+  "name": "library-system",
+  "version": "1.0.0",
+  "description": "This is a library system ",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Domains18/library-system.git"
+  },
+  "author": "Domains18",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Domains18/library-system/issues"
+  },
+  "homepage": "https://github.com/Domains18/library-system#readme"
+}
