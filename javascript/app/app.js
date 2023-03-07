@@ -11,13 +11,16 @@ const app = express();
 // Middleware
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(cors());
+app.use(cors());    
 app.use(express.static(path.join(__dirname, 'public')));
 
 
 // Routes
-app.use('/', async (req, res) => {
+app.use('/home', async (req, res) => {
     res.send('You have reached the api');
+});
+app.use("/policy", async (req, res) => {
+    res.status(200).json({message: "This is the policy"})
 });
 
 
